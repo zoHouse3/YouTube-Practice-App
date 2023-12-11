@@ -11,7 +11,7 @@ import SwiftUI
 struct MeTubeApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            MainTabView()
         }
     }
 }

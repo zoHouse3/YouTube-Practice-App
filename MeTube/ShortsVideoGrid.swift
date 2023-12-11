@@ -18,7 +18,7 @@ struct ShortsVideoGrid: View {
         VStack(spacing: 0) {
             // SHORTS HEADER
             HStack {
-                Image(systemName: "play.rectangle.fill")
+                Image(systemName: "lasso.badge.sparkles")
                     .font(.title)
                     .foregroundStyle(.blue)
                 
@@ -36,14 +36,13 @@ struct ShortsVideoGrid: View {
                     RoundedRectangle(cornerRadius: 12)
                     RoundedRectangle(cornerRadius: 12)
                 }
-                // .frame(maxHeight: 290)
                 .padding([.top])
                 .padding(.horizontal, 8)
+                
                 HStack {
                     RoundedRectangle(cornerRadius: 12)
                     RoundedRectangle(cornerRadius: 12)
                 }
-                // .frame(maxHeight: 290)
                 .padding([.bottom])
                 .padding(.horizontal, 8)
             }
