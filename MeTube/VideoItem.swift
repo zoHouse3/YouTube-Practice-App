@@ -36,7 +36,6 @@ struct VideoItem: View {
                 Image("thyroneHeadshot")
                     .resizable()
                     .scaledToFill()
-                    .background(.red)
                     .frame(width: 45, height: 45)
                     .clipShape(Circle())
                 

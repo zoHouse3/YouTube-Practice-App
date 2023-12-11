@@ -34,11 +34,11 @@ struct HomeView: View {
                     
                     // Shorts
                     ShortsVideoGrid()
-                        .frame(height: 700)
+                        .frame(height: 650)
                         .padding(.top)
                     
                     // list of more video items
-                    LazyVGrid(columns: videoColumn, content: {
+                    LazyVGrid(columns: videoColumn, spacing: 35, content: {
                         ForEach(0..<10) { _ in
                             VideoItem(imageName: "afroChill")
                         }

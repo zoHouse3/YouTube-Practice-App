@@ -54,7 +54,7 @@ struct LogoView: View {
         HStack(spacing: 2) {
             Image(systemName: "play.rectangle.fill")
                 .font(.title2)
-                .foregroundStyle(.red)
+                .foregroundStyle(.blue)
             Text("MeTube")
                 .font(.title3)
                 .fontWeight(.semibold)

@@ -16,11 +16,11 @@ struct ShortsVideoGrid: View {
     
     var body: some View {
         VStack(spacing: 0) {
-            // shorts header
+            // SHORTS HEADER
             HStack {
                 Image(systemName: "play.rectangle.fill")
                     .font(.title)
-                    .foregroundStyle(.red)
+                    .foregroundStyle(.blue)
                 
                 Text("Shorts")
                     .font(.title2)
@@ -30,22 +30,22 @@ struct ShortsVideoGrid: View {
             }
             .padding(.horizontal)
             
-    
+            // SHORTS VIDEOS
             VStack {
                 HStack {
-                    RoundedRectangle(cornerRadius: 10)
-                    RoundedRectangle(cornerRadius: 10)
+                    RoundedRectangle(cornerRadius: 12)
+                    RoundedRectangle(cornerRadius: 12)
                 }
                 // .frame(maxHeight: 290)
-                .padding([.top,])
-                .padding(.horizontal, 10)
+                .padding([.top])
+                .padding(.horizontal, 8)
                 HStack {
-                    RoundedRectangle(cornerRadius: 10)
-                    RoundedRectangle(cornerRadius: 10)
+                    RoundedRectangle(cornerRadius: 12)
+                    RoundedRectangle(cornerRadius: 12)
                 }
                 // .frame(maxHeight: 290)
                 .padding([.bottom])
-                .padding(.horizontal, 10)
+                .padding(.horizontal, 8)
             }
         }
         
